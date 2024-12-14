@@ -1,0 +1,11 @@
+[Unit]
+Discription=UFW Auto Start
+After=network.target
+
+[Service]
+User=omer
+Group=sudo
+ExecStart=/bin/bash /home/omer/GIT/UFW.sh
+
+[Install]
+WantedBy=multi-user.target
