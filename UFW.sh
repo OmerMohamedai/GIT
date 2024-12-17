@@ -1,2 +1,2 @@
 #!/bin/bash
-ufw disable
+ufw enable
